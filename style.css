@@ -1,0 +1,45 @@
+.popup {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 2rem;
+    /* min-width: 10rem; */
+    /* width: 100%; */
+    background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#accept {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+}
+
+#decline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button {
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 125%;
+}
+
+div > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div > p {
+    font-size: 109%;
+}

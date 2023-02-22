@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup">
+        <h2>Kaka?</h2>
+        <p>Vi tar din information och din själ.</p>
+        <button id="decline">Nej</button>
+        <button id="accept">Ja</button>
+    </div>
+    <script>
+        let popup = document.querySelector(".popup");
+        const accept = document.querySelector("#accept");
+        accept.addEventListener('click', (event) => {
+            console.log('ja kakor');
+            popup.classList.toggle("hidden");
+        });
+        decline.addEventListener('click', (event) => {
+            console.log('nej kakor');
+            popup.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
